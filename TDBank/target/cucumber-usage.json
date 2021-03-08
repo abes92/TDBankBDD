@@ -1,0 +1,121 @@
+[
+  {
+    "source": "user in td bank home page",
+    "steps": [
+      {
+        "name": "user in td bank home page",
+        "aggregatedDurations": {
+          "median": 0.390735,
+          "average": 0.017855333
+        },
+        "durations": [
+          {
+            "duration": 0.464558,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:5"
+          },
+          {
+            "duration": 0.390735,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:11"
+          },
+          {
+            "duration": 0.198273,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click search bar",
+    "steps": [
+      {
+        "name": "user click search bar",
+        "aggregatedDurations": {
+          "median": 0.286935,
+          "average": 0.286935
+        },
+        "durations": [
+          {
+            "duration": 0.286935,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user click sign in option",
+    "steps": [
+      {
+        "name": "user click sign in option",
+        "aggregatedDurations": {
+          "median": 0.538911,
+          "average": 0.538911
+        },
+        "durations": [
+          {
+            "duration": 0.069404,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:12"
+          },
+          {
+            "duration": 0.008418,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user enter {string} and {string}",
+    "steps": [
+      {
+        "name": "user enter \"abes92\" and \"123ase\"",
+        "aggregatedDurations": {
+          "median": 0.964358,
+          "average": 0.964358
+        },
+        "durations": [
+          {
+            "duration": 0.964358,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "user enter \"abes90\" and \"1234qwe\"",
+        "aggregatedDurations": {
+          "median": 0.908558,
+          "average": 0.908558
+        },
+        "durations": [
+          {
+            "duration": 0.908558,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user try to log in to account",
+    "steps": [
+      {
+        "name": "user try to log in to account",
+        "aggregatedDurations": {
+          "median": 0.0328,
+          "average": 0.0328
+        },
+        "durations": [
+          {
+            "duration": 0.988401,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:14"
+          },
+          {
+            "duration": 0.077199,
+            "location": "file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]

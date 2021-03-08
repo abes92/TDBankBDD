@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="49.388">
+    <testcase classname="testing TD bank functionality" name="search box functionality" time="17.086">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@class='td-search-input ng-valid ng-dirty ng-valid-parse ng-touched ng-empty']&quot;}&#10;  (Session info: chrome=88.0.4324.192)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Abess-MBP', ip: '192.168.1.231', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/59/g07ll2p95q5...}, goog:chromeOptions: {debuggerAddress: localhost:54132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b5f7dd2810c96e4776e18ae316180b6d&#10;*** Element info: {Using=xpath, value=//input[@class='td-search-input ng-valid ng-dirty ng-valid-parse ng-touched ng-empty']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user in td bank home page.............................................passed
+When user click search bar..................................................passed
+Then he will be able to write down..........................................failed
+Then user verify is directing to the right page.............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='td-search-input ng-valid ng-dirty ng-valid-parse ng-touched ng-empty']"}
+  (Session info: chrome=88.0.4324.192)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Abess-MBP', ip: '192.168.1.231', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.192, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/59/g07ll2p95q5...}, goog:chromeOptions: {debuggerAddress: localhost:54132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5f7dd2810c96e4776e18ae316180b6d
+*** Element info: {Using=xpath, value=//input[@class='td-search-input ng-valid ng-dirty ng-valid-parse ng-touched ng-empty']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.webAPI.GeneralXPath(webAPI.java:264)
+	at stepDefinitions.homePageStepDefinition.he_will_be_able_to_write_down(homePageStepDefinition.java:55)
+	at ✽.he will be able to write down(file:///Users/abestaieb/2021_PreparationBDD/TDBank/src/test/java/features/home.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="testing TD bank functionality" name="sign in functionality" time="15.626">
+        <system-out><![CDATA[Given user in td bank home page.............................................passed
+When user click sign in option..............................................passed
+Then user enter "abes92" and "123ase".......................................passed
+And user try to log in to account...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="testing TD bank functionality" name="sign in functionality 2" time="16.392">
+        <system-out><![CDATA[Given user in td bank home page.............................................passed
+When user click sign in option..............................................passed
+Then user enter "abes90" and "1234qwe"......................................passed
+And user try to log in to account...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
